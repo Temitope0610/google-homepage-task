@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    width: 20%;
+    margin-left: auto;
+    margin-top: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 15px;
+}
+.username{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#8D6E63;
+    color: #fff;
+    padding: 10px;
+}
+main{
+    text-align: center;
+    margin:105px auto;
+    max-width: 700px;
+}
+main img{
+    height: 100px;
+    text-align: center;
+}
+input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0,0,1,0.09);
+}
+input:hover{
+    box-shadow: 3px 3px 3px 6px rgba(0,0,1,0.05);
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    padding: 5px;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 3px 3px 3px 6px rgba(0,0,1,0.02);
+    border: 1px solid rgba(0,0,1,0.09) ;
+}
+.google-lang{
+    font-size: 12px;
+}
+.google-lang a{
+    text-decoration: none;
+    padding: 5px;
+}
+.google-lang a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #F2F2F2;
+    color: #85758D;
+}
+.footer-top{
+    border-bottom: 1px solid rgba(0,0,1,0.09);
+    padding: 1em; 
+    font-size: 14px;
+}
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #85758D;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+.left a{
+   margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
